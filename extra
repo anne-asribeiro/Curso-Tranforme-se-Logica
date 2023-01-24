@@ -1,0 +1,20 @@
+<meta charset="UTF-8">
+
+
+<script>
+  // Faça um algoritmo que receba dois números
+  //Digitou A: 10 B: 11
+  //Variável A: 11 Varável B: 10
+    var a = Number.parseInt(prompt("Digite um valor"));
+    var b = Number.parseInt(prompt("Digite um valor"));
+    
+    var aux = a;
+    a=b;
+    b=aux;
+
+
+    document.write("O sucessor no número " + n1 + " é: <b>" + (n1 + 1) + "</b>");
+    document.write("<br>");
+    document.write("O antecessor no número " + n1 + " é: <b>" + (n1 - 1) + "</b>");
+
+</script>

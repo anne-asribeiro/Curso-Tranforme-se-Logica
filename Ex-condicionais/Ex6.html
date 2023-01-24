@@ -1,0 +1,14 @@
+<meta charset="UTF-8">
+
+<script>
+    var Ano = Number.parseInt(prompt("Digite o ano atual"));
+    var AnoNascimento = Number.parseInt(prompt("Digite o ano do seu nascimento"));
+    var idade = Ano - AnoNascimento;
+
+    if ((idade > 18)) {
+        document.write("Já se passaram ", idade - 18," anos do alistamento");
+    }
+    else {
+        document.write("Faltam ", 18 - idade," anos para o alistamento");
+    }
+</script>

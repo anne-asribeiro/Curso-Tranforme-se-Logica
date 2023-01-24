@@ -1,0 +1,28 @@
+<meta charset="UTF-8">
+
+<script>
+
+    var nome = (prompt("Digite o seu nome: "));
+    var sexo = (prompt("Digite o seu sexo: "));
+    var preco = Number.parseFloat(prompt("Digite o preco do produto: R$"));
+   
+    if (sexo = "Masculino")  {
+        var desconto = preco*(5/100)
+        var precoComDesconto = preco - desconto;
+        document.write("Nome: ",nome, ", do sexo masculino");
+        document.write("<hr>")
+        document.write(" tem o desconto de 5%! , Valor total a pagar R$", precoComDesconto);
+        document.write("<hr>")
+        
+    }
+
+   else if (sexo = "Feminino") {
+        var desconto = preco*(13/100)
+        var precoComDesconto = preco - desconto;
+        document.write("Nome: ",nome, ", do sexo feminino")
+        document.write("<hr>")
+        document.write(" tem o desconto de 13%!, Valor total a pagar R$", precoComDesconto);
+        document.write("<hr>")
+
+    }
+</script>

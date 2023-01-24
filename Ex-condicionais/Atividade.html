@@ -1,0 +1,75 @@
+<meta charset="UTF-8">
+
+<script>
+
+    var salario = Number(prompt("Digite o seu salario: "));
+    var codigocargo = Number(prompt("Digite o codigo do seu cargo: "));
+    
+    var aumentosalario;
+    var salarionovo;
+
+
+   
+    if (codigocargo == 1)  {
+        document.write("cargo escriturário");
+        document.write("<hr>")
+        aumentosalario = salario * (50/100)
+        salarionovo = salario + aumentosalario
+        document.write(" Você terá um aumento de salário: " + aumentosalario);
+        document.write("<hr>")
+        document.write("Seu novo salário será de: " +salarionovo);
+        document.write("<hr>")
+
+        
+    }
+
+    else if (codigocargo == 2)  {
+        document.write("cargo secretário");
+        document.write("<hr>")
+        aumentosalario = salario * (35/100)
+        salarionovo = salario + aumentosalario
+        document.write(" Você terá um aumento de salário: " + aumentosalario);
+        document.write("<hr>")
+        document.write("Seu novo salário será de: " +salarionovo);
+        document.write("<hr>")
+    }
+        
+    
+    if (codigocargo == 3)  {
+        document.write("cargo caixa");
+        document.write("<hr>")
+        aumentosalario = salario * (20/100)
+        salarionovo = salario + aumentosalario
+        document.write(" Você terá um aumento de salário: " + aumentosalario);
+        document.write("<hr>")
+        document.write("Seu novo salário será de: " +salarionovo);
+        document.write("<hr>")
+    }
+        
+    else if (codigocargo == 4)  {
+        document.write("cargo gerente");
+        document.write("<hr>")
+        aumentosalario = salario * (10/100)
+        salarionovo = salario + aumentosalario
+        document.write(" Você terá um aumento de salário: " + aumentosalario);
+        document.write("<hr>")
+        document.write("Seu novo salário será de: " +salarionovo);
+        document.write("<hr>")
+    }
+
+    if (codigocargo == 5)  {
+        document.write("cargo diretor");
+        document.write("<hr>")
+        aumentosalario = salario * (20/100)
+        salarionovo = salario + aumentosalario
+        document.write(" Você terá um aumento de salário: " + aumentosalario);
+        document.write("<hr>")
+        document.write("Seu novo salário será de: " +salarionovo);
+        document.write("<hr>")
+    }
+
+    else {
+        alert("Você digitou o código inválido");
+        
+    }
+</script>
