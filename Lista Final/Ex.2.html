@@ -1,0 +1,12 @@
+<meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+
+<script>
+
+    var preço = Number.parseFloat(prompt("Digite o valor do produto"));
+    var desconto = preço * (9 / 100);
+    var preçofinal = preço - desconto;
+
+
+    document.write("Preço com desconto: " + preçofinal.toLocaleString('pt-BR', { style: 'currency', currency: 'BRL' }));
+
+</script>

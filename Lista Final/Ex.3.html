@@ -1,0 +1,13 @@
+<meta charset="UTF-8">
+
+<script>
+
+
+
+    var valorDolar = Number.parseFloat(prompt("Informe o valor da quantia em Dólares(US$)"));
+    var cotacaoDolar = 5.15;
+    var valorReal = valorDolar * cotacaoDolar
+
+    document.write("Valor que o turista possui no cofre: " + valorReal.toLocaleString('pt-BR', { style: 'currency', currency: 'BRL' }));
+
+</script>

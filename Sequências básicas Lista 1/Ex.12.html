@@ -1,0 +1,15 @@
+<meta charset="UTF-8">
+
+<script>
+
+    var preço = Number.parseFloat(prompt("Digite o valor do produto"));
+    var desconto = preço * (5 / 100);
+    var promoção = preço - desconto;
+
+    document.write("O valor do produto é: " + preço.toLocaleString('pt-BR', { style: 'currency', currency: 'BRL' }));
+    document.write("<br>");
+    document.write("Você recebeu um desconto de: " + desconto.toLocaleString('pt-BR', { style: 'currency', currency: 'BRL' }));
+    document.write("<br>");
+    document.write("Preço com desconto: " + precoComDesconto.toLocaleString('pt-BR', { style: 'currency', currency: 'BRL' }));
+
+</script>
